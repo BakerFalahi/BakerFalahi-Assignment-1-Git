@@ -1,0 +1,56 @@
+# Useful Git Commands
+
+## `git squash`
+
+Combines multiple commits into a single commit. Useful for cleaning the commit history before merging a feature branch.
+
+## `git merge` vs. `git rebase`
+
+Both integrate changes from different branches.
+
+- **Merge:** Preserves the original history and may create a merge commit.
+- **Rebase:** Moves your commits on top of another branch, creating a cleaner linear history but rewriting commit history.
+
+## `git help`
+
+Displays documentation and help for Git commands.
+
+## `git cherry-pick`
+
+Applies a specific commit from another branch to the current branch.
+
+## `git clean`
+
+Removes untracked files from the working directory.
+
+## `git grep`
+
+Searches for text inside files in the repository.
+
+## `git blame`
+
+Shows who last changed each line of a file and in which commit.
+
+## `git bisect`
+
+Uses binary search to find the commit that introduced a bug.
+
+## `git shortlog`
+
+Displays a commit summary grouped by author.
+
+## `git prune`
+
+Removes Git objects that are no longer reachable from any branch, tag, or reference.
+
+## `git worktree`
+
+Allows multiple branches to be opened in separate directories without cloning the repository again.
+
+## `git verify-commit`
+
+Verifies the cryptographic signature of a commit.
+
+## `git filter-repo`
+
+Rewrites all or part of a repository’s history. It is not a built-in Git command and must usually be installed separately.
